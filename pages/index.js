@@ -18,7 +18,7 @@ export default function Home() {
                 <script src="js/index.js"></script>
             </Head>
 
-            <div className="fixed w-full top-0 z-50 bg-gray-900 bg-opacity-70">
+            <div className="w-full top-0 z-50 bg-blue-900" id="section-home">
                 <label
                     htmlFor="toggle-menu"
                     className="px-8 block md:hidden py-6"
@@ -33,41 +33,41 @@ export default function Home() {
                 />
                 <div className="dropdown-menu hidden md:block">
                     <ul className=" md:flex justify-center">
-                        <li className="mb-2 md:mb-0">
+                        <li className="md:mb-0">
                             <a
-                                className="px-8 py-0 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
                                 href="#section-home"
                             >
                                 Home
                             </a>
                         </li>
-                        <li className="mb-2 md:mb-0">
+                        <li className="md:mb-0">
                             <a
-                                className="px-8 py-0 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
                                 href="#section-about"
                             >
                                 About
                             </a>
                         </li>
-                        <li className="mb-2 md:mb-0">
+                        <li className="md:mb-0">
                             <a
-                                className="px-8 py-0 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
                                 href="#section-roadmap"
                             >
                                 Roadmap
                             </a>
                         </li>
-                        <li className="mb-2 md:mb-0">
+                        <li className="md:mb-0">
                             <a
-                                className="px-8 py-0 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
                                 href="#section-team"
                             >
                                 Team
                             </a>
                         </li>
-                        <li className="mb-2 md:mb-0">
+                        <li className="md:mb-0">
                             <a
-                                className="px-8 py-0 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
                                 href="#section-faq"
                             >
                                 FAQ
