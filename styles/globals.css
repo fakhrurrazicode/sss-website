@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sss-main-banner {
+    position: relative;
+}
+
+.vertical-timeline-element:after {
+    display: none;
+}
+
+.vertical-timeline-element-content-inner {
+    /* margin-top: "-48px"; */
+}
+.vertical-timeline-1::before {
+    border: 2px dashed #fe346e !important;
+    background: transparent !important;
+}
+.vertical-timeline-2::before {
+    border: 2px dashed #fff !important;
+    background: transparent !important;
+}
+
+.vertical-timeline-element-content {
+    position: relative;
+    margin-left: 60px;
+    border-radius: 0em;
+    padding: 1em;
+    /* -webkit-box-shadow: 0px 5px 0 #e91e63 !important;
+    box-shadow: 0px 5px 0 #e91e63 !important; */
+    background: transparent;
+    border: none;
+}
+.sss-accordion-item .sss-accordion-body {
+    display: none;
+}
+
+.sss-accordion-item[data-collapse="true"] .sss-accordion-body {
+    /* position: relative; */
+    display: block;
+}
+
+.sss-accordion-item[data-collapse="true"] .sss-accordion-control:after {
+    content: " - ";
+}
+
+.sss-accordion-item[data-collapse="false"] .sss-accordion-control:after {
+    content: " + ";
+}
+
+.sss-accordion-body {
+    display: none;
+}
+.sss-accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sss-accordion-header > label {
+    flex: 1;
+}
+
+.sss-accordion-control:after {
+    display: block;
+    text-align: center;
+    content: " + ";
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 0.3;
+}
+
+.toggle-menu:checked + .dropdown-menu {
+    display: block;
+}
