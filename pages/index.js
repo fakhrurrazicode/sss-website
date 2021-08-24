@@ -246,7 +246,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-1.png"
+                                src="images/section-3-thumbnail-3.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -262,7 +262,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-1.png"
+                                src="images/section-3-thumbnail-4.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -278,7 +278,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-1.png"
+                                src="images/section-3-thumbnail-5.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -294,7 +294,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-1.png"
+                                src="images/section-3-thumbnail-6.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
