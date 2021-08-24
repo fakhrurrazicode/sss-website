@@ -17,108 +17,112 @@ export default function Home() {
                 <script src="vendors/jquery/dist/jquery.min.js"></script>
                 <script src="js/index.js"></script>
             </Head>
-
-            <div className="w-full top-0 z-50 bg-blue-900" id="section-home">
-                <label
-                    htmlFor="toggle-menu"
-                    className="px-8 block md:hidden py-6"
-                >
-                    <AiOutlineMenu size={28} color="#fff" />
-                </label>
-                <input
-                    type="checkbox"
-                    name="toggle-menu"
-                    id="toggle-menu"
-                    className="toggle-menu hidden"
-                />
-                <div className="dropdown-menu hidden md:block">
-                    <ul className=" md:flex justify-center">
-                        <li className="md:mb-0">
-                            <a
-                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
-                                href="#section-home"
-                            >
-                                Home
-                            </a>
-                        </li>
-                        <li className="md:mb-0">
-                            <a
-                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
-                                href="#section-about"
-                            >
-                                About
-                            </a>
-                        </li>
-                        <li className="md:mb-0">
-                            <a
-                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
-                                href="#section-roadmap"
-                            >
-                                Roadmap
-                            </a>
-                        </li>
-                        <li className="md:mb-0">
-                            <a
-                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
-                                href="#section-team"
-                            >
-                                Team
-                            </a>
-                        </li>
-                        <li className="md:mb-0">
-                            <a
-                                className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
-                                href="#section-faq"
-                            >
-                                FAQ
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div className="w-full pt-16 relative min-h-screen">
-                <div
-                    className="absolute top-0 bottom-0 left-0 right-0"
-                    style={{
-                        background: "url('images/banner-bg.gif')",
-                    }}
-                ></div>
-                <div
-                    className=" bg-blue-900 bg-opacity-90 absolute top-0 bottom-0 left-0 right-0"
-                    // style={{ background: "rgba(30, 58, 138, 0.5)" }}
-                ></div>
-                <div className="absolute min-h-screen left-0 right-0 flex flex-col items-center justify-center">
-                    <img
-                        src="/images/sss-logo.png"
-                        alt=""
-                        className="w-1/8 mx-auto mb-12"
-                    />
-
-                    <button className="bg-orange-600 text-white px-4 py-2 text-2xl font-semibold rounded-lg mb-12">
-                        Join The Society
-                    </button>
-
-                    <div className="text-4xl text-white font-semibold mb-16">
-                        0.079 Ξ
+            <header>
+                <div className="w-full pt-16 relative min-h-screen">
+                    <div
+                        className="w-full z-50  absolute top-0 left-0 right-0"
+                        id="section-home"
+                    >
+                        <label
+                            htmlFor="toggle-menu"
+                            className="px-8 block md:hidden py-6"
+                        >
+                            <AiOutlineMenu size={28} color="#fff" />
+                        </label>
+                        <input
+                            type="checkbox"
+                            name="toggle-menu"
+                            id="toggle-menu"
+                            className="toggle-menu hidden"
+                        />
+                        <div className="dropdown-menu hidden md:block">
+                            <ul className=" md:flex justify-center">
+                                <li className="md:mb-0">
+                                    <a
+                                        className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                        href="#section-home"
+                                    >
+                                        Home
+                                    </a>
+                                </li>
+                                <li className="md:mb-0">
+                                    <a
+                                        className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                        href="#section-about"
+                                    >
+                                        About
+                                    </a>
+                                </li>
+                                <li className="md:mb-0">
+                                    <a
+                                        className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                        href="#section-roadmap"
+                                    >
+                                        Roadmap
+                                    </a>
+                                </li>
+                                <li className="md:mb-0">
+                                    <a
+                                        className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                        href="#section-team"
+                                    >
+                                        Team
+                                    </a>
+                                </li>
+                                <li className="md:mb-0">
+                                    <a
+                                        className="px-8 py-2 md:py-6 lg:py-6 block md:inline-block font-semibold text-white text-lg"
+                                        href="#section-faq"
+                                    >
+                                        FAQ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                    <div
+                        className="absolute top-0 bottom-0 left-0 right-0"
+                        style={{
+                            background: "url('images/banner-bg.gif')",
+                        }}
+                    ></div>
+                    <div
+                        className=" bg-blue-900 bg-opacity-90 absolute top-0 bottom-0 left-0 right-0"
+                        // style={{ background: "rgba(30, 58, 138, 0.5)" }}
+                    ></div>
+                    <div className="absolute min-h-screen left-0 right-0 flex flex-col items-center justify-center">
+                        <img
+                            src="/images/sss-logo.png"
+                            alt=""
+                            className="w-1/8 mx-auto mb-12"
+                        />
 
-                    <div className="w-1/12 mx-auto mb-16">
-                        <div className="flex justify-center">
-                            <button className="bg-white px-3 py-2 text-orange-600 font-bold rounded-l-lg">
-                                +
-                            </button>
-                            <input
-                                type="text"
-                                className="bg-gray-200 text-orange-600 font-bold text-center flex-1"
-                                // value="20"
-                            />
-                            <button className="bg-white px-3 py-2 text-orange-600 font-bold rounded-r-lg">
-                                -
-                            </button>
+                        <button className="bg-orange-600 text-white px-4 py-2 text-2xl font-semibold rounded-lg mb-12">
+                            Join The Society
+                        </button>
+
+                        <div className="text-4xl text-white font-semibold mb-16">
+                            0.079 Ξ
+                        </div>
+
+                        <div className="w-1/12 mx-auto mb-16">
+                            <div className="flex justify-center">
+                                <button className="bg-white px-3 py-2 text-orange-600 font-bold rounded-l-lg">
+                                    +
+                                </button>
+                                <input
+                                    type="text"
+                                    className="bg-gray-200 text-orange-600 font-bold text-center flex-1"
+                                    // value="20"
+                                />
+                                <button className="bg-white px-3 py-2 text-orange-600 font-bold rounded-r-lg">
+                                    -
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </header>
 
             <div
                 id="section-about"
