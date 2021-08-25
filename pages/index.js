@@ -89,7 +89,7 @@ export default function Home() {
                     ></div>
                     <div className="absolute min-h-screen left-0 right-0 flex flex-col items-center justify-center">
                         <img
-                            src="/images/sss-logo.png"
+                            src="/images/sss-logo-min.png"
                             alt=""
                             className="w-1/8 mx-auto mb-12"
                         />
@@ -124,11 +124,11 @@ export default function Home() {
             <div
                 id="section-about"
                 className="bg-blue-900"
-                style={{ background: "url('images/section-1-bg.png')" }}
+                style={{ background: "url('images/section-1-bg-min.png')" }}
             >
                 <div className="container mx-auto md:flex md:items-center py-24 ">
                     <div className="md:w-1/2 px-8 lg:px-16 mb-16 md:mb-0">
-                        <img src="images/section-1.png" alt="" />
+                        <img src="images/section-1-min.png" alt="" />
                     </div>
                     <div className="md:w-1/2 px-8 lg:px-16 mb-16 md:mb-0">
                         <h2 className="text-orange-500 text-3xl lg:text-5xl font-bold mb-8 text-center md:text-left">
@@ -164,25 +164,25 @@ export default function Home() {
                         <ul className="flex flex-wrap items-start px-4 md:px-0">
                             <li className="px-4 py-4 w-1/2 md:w-1/4">
                                 <img
-                                    src="images/section-2-thumbnail-1.png"
+                                    src="images/section-2-thumbnail-1-min.png"
                                     alt=""
                                 />
                             </li>
                             <li className="px-4 py-4 w-1/2 md:w-1/4">
                                 <img
-                                    src="images/section-2-thumbnail-2.png"
+                                    src="images/section-2-thumbnail-2-min.png"
                                     alt=""
                                 />
                             </li>
                             <li className="px-4 py-4 w-1/2 md:w-1/4">
                                 <img
-                                    src="images/section-2-thumbnail-3.png"
+                                    src="images/section-2-thumbnail-3-min.png"
                                     alt=""
                                 />
                             </li>
                             <li className="px-4 py-4 w-1/2 md:w-1/4">
                                 <img
-                                    src="images/section-2-thumbnail-4.png"
+                                    src="images/section-2-thumbnail-4-min.png"
                                     alt=""
                                 />
                             </li>
@@ -211,7 +211,7 @@ export default function Home() {
                     <div className="flex flex-wrap justify-center mb-16">
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-1.png"
+                                src="images/section-3-thumbnail-1-min.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -227,7 +227,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-2.png"
+                                src="images/section-3-thumbnail-2-min.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -243,7 +243,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-3.png"
+                                src="images/section-3-thumbnail-3-min.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -259,7 +259,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-4.png"
+                                src="images/section-3-thumbnail-4-min.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -275,7 +275,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-5.png"
+                                src="images/section-3-thumbnail-5-min.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -291,7 +291,7 @@ export default function Home() {
 
                         <div className="w-full md:w-1/2 lg:w-1/3 text-center px-8 lg:px-16 py-8">
                             <img
-                                src="images/section-3-thumbnail-6.png"
+                                src="images/section-3-thumbnail-6-min.png"
                                 alt=""
                                 className="w-1/2 mx-auto"
                             />
@@ -318,10 +318,13 @@ export default function Home() {
                 </div>
             </div>
 
-            <div style={{ background: "url('images/section-4-bg.png')" }}>
+            <div style={{ background: "url('images/section-4-bg-min.png')" }}>
                 <div className="container mx-auto md:flex md:items-center py-24 ">
                     <div className="md:w-1/2 px-8 lg:px-16 mb-16 md:mb-0">
-                        <img src="images/section-4-illustration.png" alt="" />
+                        <img
+                            src="images/section-4-illustration-min.png"
+                            alt=""
+                        />
                     </div>
                     <div className="md:w-1/2 px-8 lg:px-16 mb-16 md:mb-0">
                         <h2 className="text-yellow-500 text-3xl lg:text-5xl font-bold mb-8 text-center md:text-left">
@@ -525,7 +528,7 @@ export default function Home() {
 
             <div
                 className="bg-pink pb-24 overflow-x-hidden"
-                style={{ background: 'url("images/section-5-bg.png")' }}
+                style={{ background: 'url("images/section-5-bg-min.png")' }}
             >
                 <div className="container mx-auto flex flex-col items-center">
                     <div className="w-11/12 px-8 lg:px-16">
@@ -718,7 +721,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div style={{ background: "url('images/section-6-bg.png')" }}>
+            <div style={{ background: "url('images/section-6-bg-min.png')" }}>
                 <div className="container mx-auto md:flex flex-col-reverse md:flex-row py-24 items-center">
                     <div className="md:w-1/2 px-8 lg:px-16 mb-16 md:mb-0">
                         <h2 className="text-yellow-100 text-3xl lg:text-5xl font-bold mb-8 text-center md:text-left">
@@ -744,7 +747,10 @@ export default function Home() {
                     </div>
 
                     <div className="md:w-1/2 px-8 lg:px-16 mb-16 md:mb-0">
-                        <img src="images/section-6-illustration.png" alt="" />
+                        <img
+                            src="images/section-6-illustration-min.png"
+                            alt=""
+                        />
                     </div>
                 </div>
             </div>
@@ -755,22 +761,22 @@ export default function Home() {
                         <div className="flex flex-wrap">
                             <img
                                 className="w-1/2"
-                                src="images/team-1.png"
+                                src="images/team-1-min.png"
                                 alt=""
                             />
                             <img
                                 className="w-1/2"
-                                src="images/team-2.png"
+                                src="images/team-2-min.png"
                                 alt=""
                             />
                             <img
                                 className="w-1/2"
-                                src="images/team-3.png"
+                                src="images/team-3-min.png"
                                 alt=""
                             />
                             <img
                                 className="w-1/2"
-                                src="images/team-4.png"
+                                src="images/team-4-min.png"
                                 alt=""
                             />
                         </div>
@@ -1019,7 +1025,7 @@ export default function Home() {
             <div className="bg-gray-800">
                 <div className="container mx-auto flex flex-col py-16 items-center justify-center">
                     <div className="w-1/12 mb-8">
-                        <img src="images/sss-logo.png" alt="" />
+                        <img src="images/sss-logo-min.png" alt="" />
                     </div>
                     <div className="w-full mb-8">
                         <ul className="flex justify-center">
