@@ -342,7 +342,10 @@ export default function Home() {
                 </div>
             </div>
 
-            <div id="section-roadmap" className="bg-white pt-24">
+            <div
+                id="section-roadmap"
+                className="bg-white pt-24 overflow-x-hidden"
+            >
                 <div className="container mx-auto flex flex-col items-center">
                     <div className="w-11/12 px-8 lg:px-16">
                         <h2 className="text-3xl lg:text-5xl font-bold mb-8 text-center md:text-left">
@@ -524,7 +527,7 @@ export default function Home() {
             </div>
 
             <div
-                className="bg-pink pb-24"
+                className="bg-pink pb-24 overflow-x-hidden"
                 style={{ background: 'url("images/section-5-bg.png")' }}
             >
                 <div className="container mx-auto flex flex-col items-center">
