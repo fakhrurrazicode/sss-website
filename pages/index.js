@@ -9,14 +9,11 @@ import {
     VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import SSSAccordion from "../components/accordion/SSSAccordion";
 
 export default function Home() {
     return (
         <>
-            <Head>
-                <script src="vendors/jquery/dist/jquery.min.js"></script>
-                <script src="js/index.js"></script>
-            </Head>
             <header>
                 <div className="w-full pt-16 relative min-h-screen">
                     <div
@@ -838,8 +835,8 @@ export default function Home() {
                     <h2 className="text-4xl font-bold text-blue-900 mb-8">
                         FREQUENTLY ASKED QUESTIONS
                     </h2>
-                    <div className="sss-accordion">
-                        {[
+                    <SSSAccordion
+                        items={[
                             {
                                 title: "What’s an NFT?",
                                 body: `NFT stands for "Non-fungible token," which means that it's a unique, digital item with blockchain-managed ownership that users can buy, own, and trade. Some NFT's fundamental function is to be digital art. But they can also offer additional benefits like exclusive access to websites, access to the place, and ownership records for physical objects. Think of it as a unique piece of art that can also work as a "members-only" card. SSS works like this.`,
@@ -1014,30 +1011,8 @@ export default function Home() {
                                 ),
                                 collapse: false,
                             },
-                        ].map((item, index) => (
-                            <div
-                                key={index}
-                                className="sss-accordion-item bg-gray-100 px-8 py-4 mb-4"
-                                data-collapse={item.collapse}
-                            >
-                                <div className="sss-accordion-header py-4">
-                                    <label
-                                        htmlFor="faq-1"
-                                        className="flex justify-between items-start cursor-pointer"
-                                    >
-                                        <div className="sss-accordion-title text-blue-900 font-semibold text-lg">
-                                            {item.title}
-                                        </div>
-                                        <div className="sss-accordion-control"></div>
-                                    </label>
-                                </div>
-
-                                <div className="sss-accordion-body">
-                                    {item.body}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
+                        ]}
+                    />
                 </div>
             </div>
 
